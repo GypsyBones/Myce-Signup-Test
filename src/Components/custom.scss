@@ -1,0 +1,33 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap/scss/_navbar.scss';
+
+
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 0rem;
+    justify-content: space-around;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  
+    li { 
+      display: inline-block; 
+      color: #fff;
+    }
+    li > a.active {
+      background-color: #4c00b4 !important;
+      color: #fff !important;
+    }
+  
+    a {
+      display: block;
+      padding: 6px 50px;
+      text-decoration: none;
+    }
+  }
+
+// NOTE: imported bootstrap AFTER overriden defaults listed above
+

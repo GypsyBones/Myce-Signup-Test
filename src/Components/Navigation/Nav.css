@@ -1,0 +1,39 @@
+
+nav {
+    background-color: #fff;
+    padding-bottom: 0px;
+    font-size: 24px;
+    display: flex;
+  }
+  
+  nav ul {
+    display: flex;
+
+  }
+  
+  nav ul li {
+    list-style-type: none;
+    text-decoration: none;
+
+  }
+  
+  nav ul li:link {
+    text-decoration: none;
+  }
+  
+  nav ul li:visited {
+    text-decoration: none;
+  }
+  
+  
+  nav ul li:hover {
+    color: rgb(95, 88, 155);
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  nav ul li.nav-item.nav-link.active {
+    background: #4c00b4;
+    text-decoration: none;
+  }
+  
